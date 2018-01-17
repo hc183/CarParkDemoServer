@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AbcCorp.CarPark.Domain.Entities\AbcCorp.CarPark.Domain.Entities.csproj" />
+    <ProjectReference Include="..\AbcCorp.CarPark.Domain.Interfaces\AbcCorp.CarPark.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\AbcCorp.CarPark.Infrastructure.Data\AbcCorp.CarPark.Infrastructure.Data.csproj" />
+  </ItemGroup>
+
+</Project>
